@@ -1,0 +1,19 @@
+# ~/.ssh/config
+
+Host gameserver
+    HostName ssh1.sbctunnel.us
+    Port 2223
+    User your_username
+    IdentityFile ~/.ssh/gameserver_key
+
+Host pi
+    HostName ssh2.sbctunnel.us  
+    Port 2222
+    User your_username
+    IdentityFile ~/.ssh/pi_key
+
+# Optional: Default settings
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    ConnectTimeout 10
