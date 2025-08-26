@@ -9,3 +9,9 @@ Host pi
     Port 2222
     User frodolaggins
     IdentityFile ~/.ssh/pi_key
+
+Host vps
+    HostName 207.246.112.94
+    Port 22
+    User root
+    IdentityFile ~/.ssh/disaster_recovery
