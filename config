@@ -1,17 +1,17 @@
 Host gameserver
-    HostName sbctunnel.us
+    HostName gabeforge.com
     Port 2223
     User server1
     IdentityFile ~/.ssh/gameserver_key
 
 Host pi
-    HostName sbctunnel.us  
+    HostName gabeforge.com 
     Port 2222
     User frodolaggins
     IdentityFile ~/.ssh/pi_key
 
 Host vps
-    HostName 207.246.112.94
+    HostName 129.212.176.99
     Port 22
     User root
     IdentityFile ~/.ssh/disaster_recovery
